@@ -29,6 +29,7 @@ function onFormSubmit(event) {
      amount = Number(event.currentTarget.amount.value);
 
     if (delay >= 0 && step >= 0 && amount > 0) {
+        let position = null;
         for (position = 1; position <= amount; position += 1) {
         delay += step;
         createPromise(position, delay);
