@@ -1,0 +1,48 @@
+.timer {
+    display: flex;
+    padding: 25px;
+    margin: 0 auto;
+    text-align: center;
+    color: dodgerblue;
+
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 2px;
+}
+
+
+.value {
+    padding-right: 5px;
+}
+
+.label {
+    padding-right: 15px;
+}
+
+input {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    color: blue;
+    outline: none;
+    border: none;
+
+}
+
+button {
+    margin-left: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: tomato;
+    min-width: 90px;
+    outline: 1px solid tomato;
+    border-radius: 5px;
+}
+
+.field {
+    font-size: 45px;
+    font-family: DS-Digital;
+    font-weight: 600;
+    margin: 0 auto;
+    background: white;
+}
